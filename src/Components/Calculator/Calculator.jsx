@@ -22,8 +22,8 @@ export function Calculator(props) {
       // Evaluer den aktuelle inputstreng for at beregne resultatet
       const calculatedResult = eval(input);
       setResult(calculatedResult);// Sæt resultatet
-      // hvis det er lig med 42
-      if (calculatedResult === 42) {
+      // hvis det er lig med 25
+      if (calculatedResult === 25) {
         setCongratulation("Congratulations, Universe!");
       } else {
         setCongratulation('');
@@ -52,6 +52,7 @@ export function Calculator(props) {
         ))}
         <button onClick={calculateResult}>=</button>
       </div>
+      
       <div className={style.result}>
         <span>Result: {result}</span>
         {congratulation && <p>{congratulation}</p>}
