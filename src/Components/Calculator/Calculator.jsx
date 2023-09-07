@@ -34,7 +34,7 @@ export function Calculator(props) {
     }
   }
 
-  // Opret et array med teksterne på knapperne
+  // Eto moy array gde vse moi shicli budu pokazivaet na Knapkoh
   const buttons = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "+", "-", "*", "/"];
 
   return (
@@ -44,7 +44,7 @@ export function Calculator(props) {
       </div>
       <div className={style.buttons}>
         <button onClick={clearInput}>C</button>
-        {/* Используем метод map для создания кнопок на основе массива */}
+        {/* Brug map-metoden til at oprette knapper baseret på arrayet */}
         {buttons.map((buttonText) => (
           <button key={buttonText} onClick={() => handleButtonClick(buttonText)}>
             {buttonText}
@@ -52,7 +52,7 @@ export function Calculator(props) {
         ))}
         <button onClick={calculateResult}>=</button>
       </div>
-      
+
       <div className={style.result}>
         <span>Result: {result}</span>
         {congratulation && <p>{congratulation}</p>}
