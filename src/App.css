@@ -1,9 +1,15 @@
 #root {
   font-family: 'Lora', serif;
-  max-width: 1280px;
+  width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
+}
+
+body {
+
+  background: #000;
 }
 
 h1 {
