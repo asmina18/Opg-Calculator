@@ -1,17 +1,16 @@
-import { Calculator } from './assets/Components/Calculator/Calculator'
+import { Calculator } from './Components/Calculator/Calculator'
 import './App.css'
 
 function App() {
-  
+
 
   return (
     <>
-     <div>
-      <h1>React Calculator</h1>
-      
-    </div>
-        <Calculator />
-     
+      <div>
+        <h1>React Calculator</h1>
+      </div>
+      <Calculator />
+
     </>
   )
 }
