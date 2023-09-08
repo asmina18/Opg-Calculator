@@ -8,7 +8,6 @@ function App() {
     <>
       <div>
         <h1>React Calculator</h1>
-        <h2>This is a template deploy</h2>
       </div>
       <Calculator />
 
