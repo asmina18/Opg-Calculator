@@ -52,7 +52,7 @@ export function Calculator(props) {
         ))}
         <button onClick={calculateResult}>=</button>
       </div>
-
+          <p>hej</p>
       <div className={style.result}>
         <span>Result: {result}</span>
         {congratulation && <p>{congratulation}</p>}
