@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:'./https://github.com/asmina18/Calculator_Example.git',
+  base:'./https://github.com/asmina18/Opg-Calculator',
   plugins: [react()],
 })
